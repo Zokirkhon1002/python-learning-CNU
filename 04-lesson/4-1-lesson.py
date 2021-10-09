@@ -19,8 +19,8 @@ Created on Sun Sep 26 16:31:00 2021
 
 
 # #2
-# for name in ['Khan', 'Umar', 'Zokirkhon', 'Ali']:
-#     print(f"Hello, {name}")
+for name in ['Khan', 'Umar', 'Zokirkhon', 'Ali']:
+    print(f"Hello, {name}")
 
 
 
@@ -169,17 +169,17 @@ Created on Sun Sep 26 16:31:00 2021
 
 
 # #12
-# import math
-# import turtle
+import math
+import turtle
 
-# t=turtle.Turtle()
-# t.pendown()
-# for x in range(360):
-#     y=math.sin(math.radians(x))
-#     scaledX = x
-#     scaledY = y*100
-#     t.goto(scaledX,scaledY)
-# t.penup()
+t=turtle.Turtle()
+t.pendown()
+for x in range(360):
+    y=math.sin(math.radians(x))
+    scaledX = x
+    scaledY = y*100
+    t.goto(scaledX,scaledY)
+t.penup()
 
 
 

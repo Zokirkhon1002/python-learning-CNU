@@ -112,26 +112,27 @@ import random;
 
 
 # # #7
-# def printOptions():
-#     print("\n 'c' Celsius to Fahrenheit")
-#     print(" 'f' Fahrenheit to Celsius")
-#     print(" 'q' End")
-# def C2F(c_temp):
-#     return 9.0/5.0*c_temp+32
-# def F2C(f_temp):
-#     return (f_temp - 32.0)*5.0/9.0
+def printOptions():
+    print("\n 'c' Celsius to Fahrenheit")
+    print(" 'f' Fahrenheit to Celsius")
+    print(" 'q' End")
+def C2F(c_temp):
+    return 9.0/5.0*c_temp+32
+def F2C(f_temp):
+    return (f_temp - 32.0)*5.0/9.0
 
-# printOptions()
-# choice = input("Please select from the menu: ")
-# while choice != "q":
-#     if choice == "c":
-#         temp = float(input("Celsius Temprature: "))
-#         print(f"\nFahrenheit Temprature: {C2F(temp)}")
-#     elif choice == 'f':
-#         temp = float(input("Fahrenheit Temprature: "))
-#         print(f"\nCelsius Temprature: {F2C(temp)}")
-#     printOptions()
-#     choice = input("Please select from the menu: ")
+
+printOptions()
+choice = input("Please select from the menu: ")
+while choice != "q":
+    if choice == "c":
+        temp = float(input("Celsius Temprature: "))
+        print(f"\nFahrenheit Temprature: {C2F(temp)}")
+    elif choice == 'f':
+        temp = float(input("Fahrenheit Temprature: "))
+        print(f"\nCelsius Temprature: {F2C(temp)}")
+    printOptions()
+    choice = input("Please select from the menu: ")
 
 
 
