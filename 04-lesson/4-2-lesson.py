@@ -117,24 +117,24 @@ Created on Wed Sep 29 20:35:15 2021
 
 # #9
 # # Interesting game
-# import random
-# tries = 0 
-# n = random.randint(1,100)
-# print("Guess a number between 1 and 100")
+import random
+tries = 0 
+n = random.randint(1,100)
+print("Guess a number between 1 and 100")
 
-# while tries<10:
-#     guess = int(input("Please enter a number\n>>> "))
-#     tries+=1
-#     if guess < n:
-#         print("too small!")
-#     elif guess > n:
-#         print("too big!")
-#     else:
-#         break
-# if guess == n:
-#     print(f"Congratulation. number of attemps: {tries}")
-# else:
-#     print(f"The answer is {n}")
+while tries<10:
+    guess = int(input("Please enter a number\n>>> "))
+    tries+=1
+    if guess < n:
+        print("too small!")
+    elif guess > n:
+        print("too big!")
+    else:
+        break
+if guess == n:
+    print(f"Congratulation. number of attemps: {tries}")
+else:
+    print(f"The answer is {n}")
 
 
 
@@ -255,13 +255,13 @@ Created on Wed Sep 29 20:35:15 2021
 
 
 # #18
-raw = input("Please enter number of your Bankbook:\n>>> ")
-result = ""
+# raw = input("Please enter number of your Bankbook:\n>>> ")
+# result = ""
 
-for c in raw:
-    if c != "-":
-        result +=c
-print(result)
+# for c in raw:
+#     if c != "-":
+#         result +=c
+# print(result)
 
 
 
