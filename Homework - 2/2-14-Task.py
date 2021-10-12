@@ -26,7 +26,7 @@ print(sum)
 
 x = int(input("Enter an integer number: "))
 
-result = n*(n/2) + (n/2);
+result = x*(x/2) + (x/2);
 
 print(int(result))
 
