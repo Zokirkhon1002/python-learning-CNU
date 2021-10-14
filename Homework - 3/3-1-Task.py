@@ -1,5 +1,5 @@
 """
-Created on Mon Oct 12 19:45:34 2021
+Created on Tue Oct 12 19:45:34 2021
 
 Student number: 180421
 Full Name: KOTIBKHONOV ZOKIRKHON ZOKHIDKHON UGLI
