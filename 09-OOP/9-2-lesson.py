@@ -6,7 +6,7 @@ Created on Sun Oct 31 00:00:55 2021
 student number: 180421
 """
 
-# 1
+### 1
 # class Student:
 #     def __init__(self, name=None, age=0):
 #         self.name = name
@@ -21,7 +21,7 @@ student number: 180421
 # print(s1)
 
 
-# 2
+### 2
 # class Student:
 #     def __init__(self, name=None, age=0):
 #         self.__name = name
@@ -31,7 +31,7 @@ student number: 180421
 # print(obj.__age)  # AttributeError: 'Student' object has no attribute '__age'
 
 
-# 3
+### 3
 # class Student:
 #     def __init__(self, name=None, age=0):
 #         self.__name = name
@@ -57,7 +57,7 @@ student number: 180421
 # print(obj.getAge())
 
 
-# 4
+### 4
 # let's also mark the class as the circle. A circle has a radius.
 # let's also define a method to calculate the area and circumference of a circle.
 # It also writes setter and accessor methods.
@@ -87,7 +87,7 @@ student number: 180421
 # print(f"Circumference of Circle: {c1.calcCircumference()}")
 
 
-# 5
+### 5
 # We can deposit and withdraw money into our bank account.
 # Let's model a bank account as a class.
 # A bank account has only the current balance as an instance variable.
@@ -116,7 +116,7 @@ student number: 180421
 # print(a.withdraw(20))
 
 
-# 6
+### 6
 # Define the old cat as a class. A cat has a name and age attributes.
 # class Cat:
 #     def __init__(self, name, age):
@@ -142,7 +142,7 @@ student number: 180421
 # print(lucky.getName(), lucky.getAge())
 
 
-# 7
+### 7
 # Let's write a Box class that reperesents a sphere box.
 # Box class has instance variables representing width, height, and length.
 
@@ -172,7 +172,7 @@ student number: 180421
 # print(box.getVolume())
 
 
-# 8
+### 8
 # Let's define a class that reperesents the queue car.
 # For example, for a car object,
 # the property is color, current speed, and current gear, etc.
@@ -203,7 +203,7 @@ student number: 180421
 # print(myCar)
 
 
-# 9
+### 9
 # What if an old object is passed to a function to change the object?
 # Depends on type of object.
 # If immutable objects such as numbers or strings are passed in, those
@@ -211,27 +211,27 @@ student number: 180421
 # Functions can mutate objects when user-written objects are passed.
 
 
-# If the old object is passed, the function can change the object.
-# Define a rectangle as a class.
-class Rectangle:
-    def __init__(self, side=0):
-        self.side = side
+# # If the old object is passed, the function can change the object.
+# # Define a rectangle as a class.
+# class Rectangle:
+#     def __init__(self, side=0):
+#         self.side = side
 
-    def getArea(self):
-        return self.side * self.side
+#     def getArea(self):
+#         return self.side * self.side
 
-# Recieve a rectangle object and the number of iterations, and print
-# the area of while increasing the side.
-def printAreas(rect, iterations):
-    while iterations > 0:
-        print(f"{rect.side} \t {rect.getArea()}")
-        rect.side += 1
-        iterations -= 1
+# # Recieve a rectangle object and the number of iterations, and print
+# # the area of while increasing the side.
+# def printAreas(rect, iterations):
+#     while iterations > 0:
+#         print(f"{rect.side} \t {rect.getArea()}")
+#         rect.side += 1
+#         iterations -= 1
 
-# By calling the queue printAreas(), we check whether the contents of the object change.
+# # By calling the queue printAreas(), we check whether the contents of the object change.
 
-myRect = Rectangle()
-count = 5
-printAreas(myRect, count)
-print(f"Rectangle side: {myRect.side}")
-print(f"Rectangle repeat: {count}")
+# myRect = Rectangle()
+# count = 5
+# printAreas(myRect, count)
+# print(f"Rectangle side: {myRect.side}")
+# print(f"Rectangle repeat: {count}")
