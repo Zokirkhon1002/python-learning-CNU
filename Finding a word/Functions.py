@@ -38,7 +38,7 @@ def start():
     word_letters = set(word);
     # letter from user input
     user_letters = ''
-    print(f"I thought {len(word)} digits, a word, Can you find it?")
+    print(f"I thought {len(word)} digits a word, Can you find it?")
     while len(word_letters)>0:
         print(display(user_letters,word))
         if len(user_letters)>0:
