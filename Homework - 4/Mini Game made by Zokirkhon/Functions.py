@@ -4,6 +4,7 @@ Created on Fri Oct 15 23:06:19 2021
 
 @author: Zokirkhon
 Theme: finding a word.
+All functions in here
 """
 
 from english_words import words;
@@ -11,6 +12,7 @@ import random
 
 
 
+# get a random word from english_words.py
 def get_word():
     word = random.choice(words)
     while '-' in word or ' ' in word:
@@ -20,7 +22,7 @@ def get_word():
 
 
 
-
+# display the word with the letters that the user has entered
 def display(user_letters,word):
     display_letter = ''
     for letter in word:
@@ -31,7 +33,11 @@ def display(user_letters,word):
     return display_letter;
 
 
+
+# starting the game
+# check if the user has won
 def start():
+    # get a random word
     word = get_word();
     
     # letters of word and do not repeat each letter
@@ -55,5 +61,5 @@ def start():
         else:
             print("We don’t have such kind of letter.")
         user_letters += letter_from_input
-    print(f"\nCongratulation! You have found the {word} word. In {len(user_letters)} attempts.")
+    print(f"\nCongratulation! You have found the {word} word. In {len(user_letters)} attempts.\n")
 
