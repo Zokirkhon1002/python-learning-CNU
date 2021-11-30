@@ -98,14 +98,52 @@ Created on Wed Nov 24 14:15:19 2021
 
 
 ###6
-import random
-save_state = random.getstate()
+# import random
+# save_state = random.getstate()
 
-print(random.randrange(0,20))
-print(random.randrange(0,20))
-print(random.randrange(0,20))
+# print(random.randrange(0,20))
+# print(random.randrange(0,20))
+# print(random.randrange(0,20))
 
-random.setstate(save_state)
-print(random.randrange(0,20))
-print(random.randrange(0,20))
-print(random.randrange(0,20))
+# random.setstate(save_state)
+# print(random.randrange(0,20))
+# print(random.randrange(0,20))
+# print(random.randrange(0,20))
+
+
+
+
+
+
+###7
+# Lotto number generator
+# import random
+# def get_lotto_numbers():
+#     lotto_numbers = []
+    
+#     while True:
+#         if len(lotto_numbers) == 6:
+#             break
+        
+#         number = random.randint(1,45)
+#         if number in lotto_numbers:
+#             continue
+#         else:
+#             lotto_numbers.append(number)
+#     return lotto_numbers;
+
+# if __name__ == "__main__":
+#     lotto_numbers = get_lotto_numbers()
+#     print(lotto_numbers)
+
+
+
+
+
+
+###8
+from random import randrange
+
+
+for i in range(3):
+    print(randrange(0,101,3))
