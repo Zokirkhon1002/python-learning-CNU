@@ -1,2 +1,2 @@
 # python-learning-CNU
-I started to learn python programming in <a href="https://global.jnu.ac.kr/jnumain_en.aspx">CNU</a> with Professor
+I started to learn python programming in <a href="https://global.jnu.ac.kr/jnumain_en.aspx">CNU</a> with Professor <b>KIM KANG CHUL</b>
