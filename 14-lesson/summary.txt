@@ -1,0 +1,2 @@
+Total sales: 239000
+Average daily sales: 39833.333333333336
